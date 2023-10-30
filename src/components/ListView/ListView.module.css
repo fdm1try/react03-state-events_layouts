@@ -1,0 +1,7 @@
+.store-items-list {
+  width: 100%;
+  overflow-y: hidden;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,47 @@
+.store-item {
+  display: flex;
+  height: 70px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.store-item-title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.store-item-color {
+  text-align: center;
+  color: rgb(115, 115, 115);
+  text-transform: lowercase;
+}
+
+.store-item-image {
+  height: 130px;
+  margin-top: -20px;
+}
+
+.store-item-price {
+  color: red;
+}
+
+.store-item-add_button {
+  color: red;
+  background: none;
+  border-radius: 10px;
+  border: 1px solid  red;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.store-item-add_button:hover {
+  background: red;
+  color: white;
+}
